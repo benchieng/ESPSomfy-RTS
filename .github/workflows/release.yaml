@@ -1,6 +1,7 @@
 name: ESPSomfy-RTS Release
 
 on: 
+  workflow_dispatch:
   release:
     types: [published]
 
